@@ -37,6 +37,11 @@ header img.logo{
     line-height: 1.7;
 }
 
+.header-content a{
+    font-weight: 600;
+    color:#fff;
+}
+
 .film{
     margin-left: 28%;
     margin-right: 28%;
@@ -74,6 +79,13 @@ header img.logo{
 
 .social a i:hover{
     opacity: .8;
+}
+
+.social a p{
+    color:#fff;
+    display: inline-block;
+    font-weight: 600;
+    padding-right: 9px;
 }
 
 /*----- Table --------*/
@@ -160,6 +172,14 @@ header img.logo{
     padding:8px 19px;
     font-weight: 600;
     margin-top:20px;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+    transition: .2s;
+}
+
+.ghost:hover{
+    background-color:#4a85e3;
+    color:#eef2f8;
 }
 
 .champs-social{
@@ -246,7 +266,7 @@ footer p{
 }
 
 .sub-footer a p{
-    color:#4a84ba;
+    color:#4a85e3;
     font-weight: 600;
     margin-bottom: -0px;
 }
@@ -255,3 +275,40 @@ footer p{
     text-decoration: none;
     opacity: .7;
 }
+
+#mc-form .form-control{
+    border:none;
+    box-shadow: none;
+    padding:24px;
+    transition: .2s;
+}
+
+#mc-form .form-control:focus{
+    background-color:#4a85e3;
+    color:#fff;
+}
+
+#mc-form .form-control:focus::-webkit-input-placeholder { color: white; }
+
+#mc-form .form-control:focus:-moz-placeholder { color: white; }
+#mc-form .form-control:focus::-moz-placeholder { color: white; }
+#mc-form .form-control:focus:-ms-input-placeholder { color: white; }
+
+#mc-subscribe{
+    background-color:#4a85e3;
+    color:#fff;
+    padding:14px;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,6 +17,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.fitvids.js"></script>
+        <script src="js/bootstrap-anchor.min.js"></script>
       
         <script>
             $(document).ready(function(){
@@ -24,6 +25,10 @@
             $("#video-embed").fitVids();
             });
         </script>
+      <script>+function ($) {
+  $(document).anchor()
+}(jQuery)</script>
+      
       
         <script src="//use.typekit.net/qgg8azw.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
@@ -42,11 +47,12 @@
             
             <h1>The Scottish Schools Pipes and Drums Trust</h1>
             
-            <p>In April 2015 the Scottish Schools Pipes and Drums Trust changed its name from the East Lothian Pipes and Drums Trust to reflect the expansion of our work in Scotland.  Our new website is under construction, but here is a snapshot of activities. </p>
+            <p>In April 2015 the Scottish Schools Pipes and Drums Trust changed its name from the <a href="#" target="_blank">East Lothian Pipes and Drums Trust</a> to reflect the expansion of our work in Scotland.  Our new website is under construction, but here is a snapshot of activities. </p>
         
             </div>  
             
             <div class="social">
+            <a href="#newsletter" class="smooth"><p>Newsletter</p></a>
             <a href="#"><i class="fa fa-facebook-square"></i></a>
             <a href="#"><i class="fa fa-twitter-square"></i></a>
             </div>
@@ -162,6 +168,25 @@ Edinburgh, EH3 9EE</p>
 
                 
                 </div>
+                
+                <div class="col-md-6" id="newsletter">
+                    
+                    <h4>Newsletter</h4> 
+                    
+                    <p>Keep up to date on SSPDT's activities and events by signing up to our newsletter below</p>
+                
+                     <div class="">
+              <form role="form" id="mc-form" action="http://sspdt.us9.list-manage.com/subscribe/post-json?u=f8c17048f155b73797595892d&amp;id=61df56b69d&amp;c=?">
+                <div class="input-group">
+                  <input type="email" class="form-control email" placeholder="Sign up to our newsletter" required value="" name="EMAIL">
+                  <span class="input-group-btn">
+                  <button type="submit" class="btn btn-default" id="mc-subscribe" value="Subscribe" name="subscribe"><i class="fa fa-check"></i></button>
+                  </span> </div>
+              </form>
+              <p id="mc-notification"></p>
+            </div>
+                
+                </div>
             
             </div>
         
@@ -188,6 +213,8 @@ Edinburgh, EH3 9EE</p>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
+        
+   
     
     </body>
 </html>
