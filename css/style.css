@@ -18,6 +18,11 @@ header img.logo{
     margin-bottom: 30px;
 }
 
+::selection{
+    background-color:#fff;
+    color:#4a85e3;
+}
+
 .row{
     margin-left: 0;
     margin-right: 0;
