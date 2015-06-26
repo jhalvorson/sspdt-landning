@@ -1,0 +1,172 @@
+html, body{
+    font-family: proxima nova soft;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing:antialiased;
+    font-smooth:
+}
+
+header{
+    min-height: 460px;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+}
+
+header img.logo{
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header-content{
+    padding:60px 41% 0px 50px;
+}
+
+.header-content h1{
+    font-size: 32px;
+}
+
+.header-content p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.7;
+}
+
+.film{
+    margin-left: 28%;
+    margin-right: 28%;
+    border:4px solid #fff;
+    border-radius: 4px;
+    margin-top:-120px;
+}
+
+@media(max-width:998px){
+    .film{
+        margin-top:20px;
+        border:none;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    .header-content{
+        padding:60px;
+    }
+}
+
+.social{
+    position: absolute;
+    top:60px;
+    right:60px;
+}
+
+.social a i{
+    color:#fff;
+    font-size: 19px;
+    padding:0 7px;
+}
+
+.social a i:hover{
+    opacity: .8;
+}
+
+/*----- Table --------*/
+
+.table-header{
+    background-color:#4a85e3 ;
+    padding:25px;
+    color:#fff;
+    text-align: center;
+    margin-top:30px;
+}
+
+.table-header h3{
+    font-size: 19px;
+}
+
+.column{
+    min-height: 490px;
+    padding:30px;
+    text-align: center;
+    color:#3d3d3d;
+}
+
+.column.grey{
+    background-color:#eef2f8 ;
+}
+
+.column h4{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.champs-video{
+    height:190px;
+    border-radius: 4px;
+    background-image: url(/img/three.JPG);
+    background-size: cover;
+    position: relative;
+    margin-top:20px;
+}
+
+.champs-video .overlay{
+    height: 190px;
+    position: absolute;
+    width:100%;
+    background:#000;
+    opacity: .3;
+    border-radius: 4px;
+}
+
+.champs-video a i{
+    color:#fff;
+    font-size: 30px;
+    padding-top:67px;
+}
+
+.close{
+    position: absolute;
+    top:-20px;
+    right:0px;
+    color:#fff;
+    opacity: 1;
+    box-shadow: none;
+}
+
+.modal-content{
+    background-color:transparent;
+    border:none;
+    box-shadow: none;
+    margin-top: 100px;
+    width:130%;
+    margin-left: -15%;
+}
+
+.modal{
+    background-color:rgba(0,0,0,.6);
+}
+
+.ghost{
+    background-color: transparent;
+    border:2px solid #4a85e3;
+    color:#4a85e3;
+    padding:8px 19px;
+    font-weight: 600;
+    margin-top:20px;
+}
+
+.champs-social{
+    margin-top:17px;
+}
+
+.champs-social a i{
+    font-size: 22px;
+    padding:0 10px;
+}
+
+
