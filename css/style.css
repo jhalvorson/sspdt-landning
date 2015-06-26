@@ -1,5 +1,5 @@
 html, body{
-    font-family: proxima nova soft;
+    font-family: "proxima-nova-soft",sans-serif;
     -webkit-font-smoothing: antialiased;
     font-smoothing:antialiased;
     font-smooth:
@@ -7,7 +7,7 @@ html, body{
 
 header{
     min-height: 460px;
-    background-image: url('../img/background.jpg');
+    background-image: url(/img/background.jpg);
     background-size: cover;
     background-position: center;
     color:#fff;
@@ -108,7 +108,7 @@ header img.logo{
 .champs-video{
     height:190px;
     border-radius: 4px;
-    background-image: url('../img/three.JPG');
+    background-image: url(/img/three.JPG);
     background-size: cover;
     position: relative;
     margin-top:20px;
