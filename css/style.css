@@ -7,10 +7,20 @@ html, body{
 
 header{
     min-height: 460px;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/one.JPG');
     background-size: cover;
     background-position: center;
     color:#fff;
+}
+
+@media(max-width:998px){
+    header{
+    min-height: 460px;
+    background-image: url('../img/background.JPG');
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+}
 }
 
 header img.logo{
