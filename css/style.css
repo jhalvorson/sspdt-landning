@@ -16,7 +16,7 @@ header{
 @media(max-width:998px){
     header{
     min-height: 460px;
-    background-image: url('../img/background.JPG');
+    background-image: url('../img/background.jpg');
     background-size: cover;
     background-position: center;
     color:#fff;
