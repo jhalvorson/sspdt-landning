@@ -67,6 +67,18 @@ header img.logo{
     margin-top:-120px;
 }
 
+.top{
+    display: none
+}
+
+.bottom{
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 500;
+    color:#424242;
+    margin-bottom: -10px;
+}
+
 @media(max-width:998px){
     .film{
         margin-top:20px;
@@ -77,6 +89,17 @@ header img.logo{
     
     .header-content{
         padding:60px;
+    }
+    .top{
+        display: block;
+        text-align: center;
+        padding-top: 12px;
+        font-weight: 500;
+        color:#424242;
+    }
+    
+    .bottom{
+    display: none;
     }
 }
 
@@ -266,7 +289,11 @@ header img.logo{
     font-size: 13px;
 }
 
-
+@media(max-width:998px){
+    .column.campaign{
+    min-height: 240px;
+    }
+}
 
 /*-------------
 Footer
