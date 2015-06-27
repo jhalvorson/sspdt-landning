@@ -148,6 +148,22 @@ header img.logo{
     padding-top:72px;
 }
 
+.govan-video{
+    height:190px;
+    border-radius: 4px;
+    background-image: url(/img/two.JPG);
+    background-size: cover;
+    position: relative;
+    margin-top:20px;
+}
+
+.govan-video a i{
+    color:#fff;
+    font-size: 30px;
+    padding-top:67px;
+}
+
+
 .close{
     position: absolute;
     top:-20px;
