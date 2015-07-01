@@ -55,6 +55,11 @@ header img.logo{
 .header-content a{
     font-weight: 600;
     color:#fff;
+    border-bottom: 2px solid #fff;
+}
+
+.header-content a:hover{
+    text-decoration: none;
 }
 
 .film{
