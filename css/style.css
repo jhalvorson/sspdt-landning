@@ -175,6 +175,12 @@ header img.logo{
     border-radius: 4px;
 }
 
+@media(max-width:998px){
+    .overlay{
+        display: none;
+    }
+}
+
 .champs-video a i{
     color:#fff;
     font-size: 30px;
