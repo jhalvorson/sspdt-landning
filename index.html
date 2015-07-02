@@ -86,7 +86,10 @@
                         
                         <p>The bagpipe is Scotland’s national instrument yet most pupils in state schools are not offered the chance to play the pipes or the highland drums on a par with other instruments.  Pipe bands promote not just musicianship but self esteem, teamwork, a sense of dress and discipline, fun and friendship.  Pipe bands are also a source of pride and focus for schools and their communities.  Fair Play for Pipes is our campaign to bring piping and drumming to state schools in Scotland.</p>
                     
-                        <div class="campaign-video"></div>
+                        <div class="campaign-video">
+                              <div class="overlay"></div> <!-- Would use gradient but old browsers brah --->
+                         <a data-toggle="modal" href="#campaignFilm"><i class="fa fa-play"></i></a>
+                        </div>
                         
                     </div>
                     
@@ -212,6 +215,21 @@ Edinburgh, EH3 9EE</p>
         
         </div>
         
+        
+         <!-- Campaign film modal -->
+  <div class="modal fade" id="campaignFilm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" id="video-embed">
+          
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+       
+        <div class="modal-body" id="video-embed">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/dvLjKvlswgg?controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+       
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
         
          <!-- Championship film modal -->
   <div class="modal fade" id="champsFilm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

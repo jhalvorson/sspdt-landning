@@ -207,6 +207,21 @@ header img.logo{
     padding-top:67px;
 }
 
+.campaign-video{
+    height:190px;
+    border-radius: 4px;
+    background-image: url('../img/four.JPG');
+    background-size: cover;
+    position: relative;
+    margin-top:20px;
+}
+
+.campaign-video a i{
+    color:#fff;
+    font-size: 30px;
+    padding-top:67px;
+}
+
 
 
 .close{
